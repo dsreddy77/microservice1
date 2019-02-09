@@ -1,0 +1,17 @@
+#!/bin/bash
+
+read -p "what is your name? " name
+
+echo "Hello $name"
+
+read -p "How old are you ? " age
+
+if [ $age -ge 16 ]
+then
+	echo " You can Drive"
+elif [ $age -eq 15 ]
+then
+	echo " You can Drive next year"
+else
+	echo " You can't Drive "
+fi
