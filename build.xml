@@ -32,7 +32,7 @@
 		    
 		<zip destfile="${dist-location}/deployables.zip">
 			<zipfileset dir="${basedir}" />
-			<fileset dir="${basedir}" includes="*.*"/>
+			<fileset dir="${basedir}" includes="*.txt"/>
 		</zip>
 			
 		<echo message="awstraing zip file"/>
